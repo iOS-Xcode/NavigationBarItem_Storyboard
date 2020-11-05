@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B92099752554868F003047CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92099742554868F003047CE /* AppDelegate.swift */; };
 		B92099772554868F003047CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92099762554868F003047CE /* SceneDelegate.swift */; };
-		B92099792554868F003047CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92099782554868F003047CE /* ViewController.swift */; };
+		B92099792554868F003047CE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92099782554868F003047CE /* NavigationController.swift */; };
 		B920997C2554868F003047CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B920997A2554868F003047CE /* Main.storyboard */; };
 		B920997E25548691003047CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B920997D25548691003047CE /* Assets.xcassets */; };
 		B920998125548691003047CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B920997F25548691003047CE /* LaunchScreen.storyboard */; };
@@ -19,11 +19,14 @@
 		B92099712554868F003047CE /* NavigationBarItem_Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarItem_Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92099742554868F003047CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B92099762554868F003047CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B92099782554868F003047CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B92099782554868F003047CE /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		B920997B2554868F003047CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B920997D25548691003047CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B920998025548691003047CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B920998225548691003047CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B920998A25548CE3003047CE /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		B920998B25548CE3003047CE /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		B920998C25548CE3003047CE /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				B92099742554868F003047CE /* AppDelegate.swift */,
+				B920998B25548CE3003047CE /* screenshot1.png */,
+				B920998A25548CE3003047CE /* screenshot2.png */,
+				B920998C25548CE3003047CE /* screenshot3.png */,
 				B92099762554868F003047CE /* SceneDelegate.swift */,
-				B92099782554868F003047CE /* ViewController.swift */,
+				B92099782554868F003047CE /* NavigationController.swift */,
 				B920997A2554868F003047CE /* Main.storyboard */,
 				B920997D25548691003047CE /* Assets.xcassets */,
 				B920997F25548691003047CE /* LaunchScreen.storyboard */,
@@ -137,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B92099792554868F003047CE /* ViewController.swift in Sources */,
+				B92099792554868F003047CE /* NavigationController.swift in Sources */,
 				B92099752554868F003047CE /* AppDelegate.swift in Sources */,
 				B92099772554868F003047CE /* SceneDelegate.swift in Sources */,
 			);
